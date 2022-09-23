@@ -12,7 +12,7 @@ if f == '':
     f = '../../Desktop/b64.txt'
 
 # Loop x amount of times
-iter = input('Enter the amount of decoding loops: ')
+iter = int(input('Enter the amount of decoding loops: '))
 # Default to 50 if nothing is entered
 if not iter:
     iter = 50
